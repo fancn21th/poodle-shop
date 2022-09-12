@@ -1,0 +1,14 @@
+{
+  "name": "@poodle-shop",
+  "version": "1.0.0",
+  "description": "a monorepo for aws lambda serverless",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "lib/*"
+  ]
+}

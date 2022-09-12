@@ -1,0 +1,12 @@
+{
+  "name": "@poodle-shop/json-crud",
+  "description": "crud a json file and sync with a bucket.",
+  "version": "1.0.0",
+  "author": "Fan, Yi-Jie (fancn21th.cn)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.161.0",
+    "lowdb": "3.0.0"
+  }
+}
