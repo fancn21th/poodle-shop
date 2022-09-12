@@ -10,6 +10,7 @@
     "lowdb": "3.0.0"
   },
   "scripts": {
+    "undeploy": "sls remove",
     "deploy": "sls deploy",
     "deploy:func": "sls deploy function --function jsonCrud --verbose"
   }

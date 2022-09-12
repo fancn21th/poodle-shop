@@ -9,6 +9,7 @@
     "node-fetch": "3.2.10"
   },
   "scripts": {
+    "undeploy": "sls remove",
     "deploy": "sls deploy",
     "deploy:func": "sls deploy function --function users --verbose"
   }
