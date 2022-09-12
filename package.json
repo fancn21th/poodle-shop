@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "a monorepo for aws lambda serverless",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "deploy": "npm run deploy -ws"
+  },
   "keywords": [],
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "workspaces": [
     "apps/*",
     "lib/*"
-  ]
+  ],
+  "devDependencies": {
+    "serverless": "3.22.0"
+  }
 }
